@@ -1,0 +1,88 @@
+body {
+    background-color: #E3FEF7;
+}
+
+* {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+nav {
+    background-color: #213555;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    position: sticky;
+}
+
+nav a {
+    padding: 2%;
+    text-decoration: none;
+    color: #E3FEF7;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.hero {
+    color: #213555;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+}
+
+.hero p:first-of-type {
+    text-align: left;
+    margin-left: 10%;
+    padding-left: 2%;
+}
+
+.hero p:last-of-type {
+    text-align: right;
+    margin-right: 10%;
+    padding-right: 2%;
+}
+
+.aboutMe {
+    background-color: #213555;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.aboutMe * {
+    position: relative;
+    bottom: 40px;
+    color: #E3FEF7;
+}
+
+.aboutMe img {
+    width: 40%;
+    border-radius: 50%;
+    border: 10px solid #213555;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    padding: 2%;
+    font-size: 4vw;
+}
+
+.aboutMe p {
+    padding: 2%;
+}
