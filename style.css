@@ -23,7 +23,7 @@ nav {
     margin-left: 10%;
     border-radius: 10px;
     position: sticky;
-    top: 0;
+    top: 8px;
 }
 
 nav a {
