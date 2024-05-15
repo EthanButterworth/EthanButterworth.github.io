@@ -6,8 +6,16 @@ body {
     font-size: 3vw;
 }
 
-nav {
+.primary {
     background-color: #213555;
+    color: #E3FEF7;
+}
+
+.secondary {
+    color: #213555;
+}
+
+nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -15,6 +23,7 @@ nav {
     margin-left: 10%;
     border-radius: 10px;
     position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -25,10 +34,6 @@ nav a {
 
 main {
     margin-top: 10px;
-}
-
-.hero {
-    color: #213555;
 }
 
 h1 {
@@ -54,7 +59,6 @@ h1 {
 }
 
 .aboutMe {
-    background-color: #213555;
     width: 80%;
     margin-left: 10%;
     border-radius: 10px;
@@ -64,7 +68,6 @@ h1 {
 .aboutMe * {
     position: relative;
     bottom: 40px;
-    color: #E3FEF7;
 }
 
 .aboutMe img {
