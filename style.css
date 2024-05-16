@@ -129,3 +129,31 @@ p {
 .projects {
     margin: 0 10%;
 }
+
+.row {
+    display: flex;
+    margin: 40px 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24vw;
+    height: 24vw;
+    margin: 1vw;
+}
+
+.individual img {
+    background-color: lightgrey;
+    width: 24vw;
+    height: 24vw;
+}
+
+h3 {
+    margin: 8px 8px;
+    font-size: 1rem;
+}
