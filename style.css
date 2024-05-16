@@ -46,6 +46,10 @@ a {
     text-decoration: none;
 }
 
+.active {
+    color: lightgrey;
+}
+
 main {
     margin-top: 10px;
 }
