@@ -60,7 +60,6 @@ h1 {
     padding-right: 2%;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
-    font-style: normal;
     font-size: 2rem;
 }
 
@@ -76,11 +75,23 @@ h1 {
     padding-left: 2%;
 }
 
+@media only screen and (min-width: 1024px) {
+    .hero p:first-of-type {
+       margin-bottom: -100px; 
+    }
+  }
+
 .hero p:last-of-type {
     text-align: right;
     margin: 0 10%;
     padding-right: 2%;
 }
+
+@media only screen and (min-width: 1024px) {
+    .hero p:last-of-type {
+       margin-top: -100px; 
+    }
+  }
 
 .aboutMe {
     width: 80%;
@@ -104,7 +115,8 @@ h1 {
 
 @media only screen and (min-width: 1024px) {
     .aboutMe img {
-      width: 25%;
+      width: 20%;
+      border: 1vw solid #213555;
     }
   }
 
@@ -136,7 +148,7 @@ p {
 
 .row {
     display: flex;
-    margin: 40px 10%;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -157,7 +169,19 @@ p {
     height: 24vw;
 }
 
+.headline {
+    width: 24vw;
+    height: 30px;
+}
+
 h3 {
     margin: 8px 8px;
-    font-size: 1rem;
+    font-size: 0.7rem;
+    font-weight: 400;
 }
+
+@media only screen and (min-width: 1024px) {
+    h3 {
+        font-size: 1rem;
+    }
+  }
