@@ -194,6 +194,9 @@ p {
 .headline {
     width: 24vw;
     height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 h5 {
@@ -209,7 +212,38 @@ h5 {
   }
 
   ul {
-    padding: 2% 5%;
+    padding: 2% 10%;
+
+  }
+
+  @media only screen and (min-width: 375px) {
+    ul {
+        padding: 2% 9%;
+    }
+  }
+
+  @media only screen and (min-width: 425px) {
+    ul {
+        padding: 2% 8%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    ul {
+        padding: 2% 5%;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    ul {
+        padding: 2% 4%;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    ul {
+        padding: 2% 3.2%;
+    }
   }
 
   span {
