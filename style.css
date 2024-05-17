@@ -215,3 +215,7 @@ h5 {
   span {
     font-weight: 400;
   }
+
+  .bold {
+    font-weight: bold;
+  }
