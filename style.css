@@ -36,8 +36,7 @@
     }
 
     nav a {
-        padding: 2%;
-        border-radius: 10px;
+        margin: 8px;
     }
 
     a:hover {
@@ -58,11 +57,10 @@
 
     h1 {
         text-align: center;
-        padding-left: 2%;
-        padding-right: 2%;
         font-family: "Permanent Marker", cursive;
         font-weight: 400;
         font-size: 2rem;
+        margin: 0 0;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -72,11 +70,10 @@
     }
 
     h2 {
-        padding: 2%;
         font-size: 1.5rem;
         font-weight: bold;
         text-decoration: underline;
-        margin-bottom: -5%;
+        margin: 0 8px;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -86,8 +83,9 @@
     }
 
     h3 {
-        padding: 2%;
         font-size: 1.3rem;
+        margin: 0 8px;
+        margin-bottom: 8px;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -98,7 +96,8 @@
 
     h4 {
         font-size: 1rem;
-        padding: 0px 2%;
+        margin: 0 8px;
+        margin-bottom: 8px;
     }
 
     @media only screen and (min-width: 1024px) {
@@ -108,11 +107,13 @@
     }
 
     p {
-        padding: 2%;
+        padding: 0px 8px;
+        margin: 0 0;
+        margin-bottom: 8px;
     }
 
     h5 {
-        margin: 8px 8px;
+        margin: 0 8px;
         font-size: 0.7rem;
         font-weight: 400;
     }
@@ -131,30 +132,28 @@
         font-weight: bold;
     }
 
+    ul {
+        margin: 0 30px;
+        padding: 0 0;
+        margin-bottom: 8px;
+    }
+
 /* INDEX */
+
+    .hero {
+        margin-top: 10px;
+    }
 
     .hero p:first-of-type {
         text-align: left;
-        margin: 0 10%;
-        padding-left: 2%;
-    }
-
-    @media only screen and (min-width: 1024px) {
-        .hero p:first-of-type {
-        margin-bottom: -100px; 
-        }
+        margin: 0% 10%;
+        padding: 0 8px;
     }
 
     .hero p:last-of-type {
         text-align: right;
-        margin: 0 10%;
-        padding-right: 2%;
-    }
-
-    @media only screen and (min-width: 1024px) {
-        .hero p:last-of-type {
-        margin-top: -100px; 
-        }
+        margin: 0% 10%;
+        padding: 0 8px;
     }
 
     .aboutMe {
@@ -194,6 +193,7 @@
 
     .projects {
         margin: 0 10%;
+        margin-bottom: 25px;
     }
 
     .row {
