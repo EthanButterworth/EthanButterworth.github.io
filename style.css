@@ -246,7 +246,7 @@
         margin: 0 10%;
         display: flex;
         margin-bottom: 40px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -257,7 +257,8 @@
         align-items: center;
         width: 24vw;
         height: 24vw;
-        margin: 1vw;
+        margin: 0 8px;
+        margin-bottom: 3vw;
     }
 
     .individual img {
