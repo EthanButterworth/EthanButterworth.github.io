@@ -1,255 +1,228 @@
-body {
-    background-color: #E3FEF7;
-    font-family: "Handlee", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-}
+/* ALL */
 
-@media only screen and (min-width: 1024px) {
     body {
-      font-size: 1.5rem;
-    }
-  }
-
-.primary {
-    background-color: #213555;
-    color: #E3FEF7;
-}
-
-.secondary {
-    color: #213555;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 80%;
-    margin: 0 10%;
-    border-radius: 10px;
-    position: sticky;
-    top: 8px;
-    z-index: 999;
-}
-
-nav a {
-    padding: 2%;
-    border-radius: 10px;
-}
-
-a:hover {
-    color: lightgrey;
-}
-
-a {
-    text-decoration: none;
-}
-
-.active {
-    color: lightgrey;
-}
-
-main {
-    margin-top: 10px;
-}
-
-h1 {
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
-    font-size: 2rem;
-}
-
-@media only screen and (min-width: 1024px) {
-    h1 {
-      font-size: 9rem;
-    }
-  }
-
-.hero p:first-of-type {
-    text-align: left;
-    margin: 0 10%;
-    padding-left: 2%;
-}
-
-@media only screen and (min-width: 1024px) {
-    .hero p:first-of-type {
-       margin-bottom: -100px; 
-    }
-  }
-
-.hero p:last-of-type {
-    text-align: right;
-    margin: 0 10%;
-    padding-right: 2%;
-}
-
-@media only screen and (min-width: 1024px) {
-    .hero p:last-of-type {
-       margin-top: -100px; 
-    }
-  }
-
-.aboutMe {
-    width: 80%;
-    margin: 0 10%;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.aboutMe * {
-    position: relative;
-    bottom: 40px;
-}
-
-.aboutMe img {
-    width: 40%;
-    border-radius: 50%;
-    border: 2vw solid #213555;
-    margin: auto;
-    display: block;
-}
-
-@media only screen and (min-width: 1024px) {
-    .aboutMe img {
-      width: 20%;
-      border: 1vw solid #213555;
-    }
-  }
-
-h2 {
-    padding: 2%;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: -5%;
-}
-
-@media only screen and (min-width: 1024px) {
-    h2 {
-      font-size: 2rem;
-    }
-  }
-
-  h3 {
-    padding: 2%;
-    font-size: 1.3rem;
-  }
-
-  @media only screen and (min-width: 1024px) {
-    h3 {
-      font-size: 1.8rem;
-    }
-  }
-
-h4 {
-    font-size: 1rem;
-    padding: 0px 2%;
-}
-
-@media only screen and (min-width: 1024px) {
-    h4 {
-      font-size: 1.5rem;
-    }
-  }
-
-p {
-    padding: 2%;
-}
-
-.resume {
-    margin: 0 10%;
-}
-
-.projects {
-    margin: 0 10%;
-}
-
-.row {
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.individual {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 24vw;
-    height: 24vw;
-    margin: 1vw;
-}
-
-.individual img {
-    background-color: lightgrey;
-    width: 24vw;
-    height: 24vw;
-}
-
-.headline {
-    width: 24vw;
-    height: 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-h5 {
-    margin: 8px 8px;
-    font-size: 0.7rem;
-    font-weight: 400;
-}
-
-@media only screen and (min-width: 1024px) {
-    h5 {
+        background-color: #E3FEF7;
+        font-family: "Handlee", cursive;
+        font-weight: 400;
+        font-style: normal;
         font-size: 1rem;
     }
-  }
 
-  ul {
-    padding: 2% 10%;
-
-  }
-
-  @media only screen and (min-width: 375px) {
-    ul {
-        padding: 2% 9%;
+    @media only screen and (min-width: 1024px) {
+        body {
+        font-size: 1.5rem;
+        }
     }
-  }
 
-  @media only screen and (min-width: 425px) {
-    ul {
-        padding: 2% 8%;
+    .primary {
+        background-color: #213555;
+        color: #E3FEF7;
     }
-  }
 
-  @media only screen and (min-width: 768px) {
-    ul {
-        padding: 2% 5%;
+    .secondary {
+        color: #213555;
     }
-  }
 
-  @media only screen and (min-width: 1440px) {
-    ul {
-        padding: 2% 4%;
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        margin: 0 10%;
+        border-radius: 10px;
+        position: sticky;
+        top: 8px;
+        z-index: 999;
     }
-  }
 
-  @media only screen and (min-width: 2560px) {
-    ul {
-        padding: 2% 3.2%;
+    nav a {
+        padding: 2%;
+        border-radius: 10px;
     }
-  }
 
-  span {
-    font-weight: 400;
-  }
+    a:hover {
+        color: lightgrey;
+    }
 
-  .bold {
-    font-weight: bold;
-  }
+    a {
+        text-decoration: none;
+    }
+
+    .active {
+        color: lightgrey;
+    }
+
+    main {
+        margin-top: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        h1 {
+        font-size: 9rem;
+        }
+    }
+
+    h2 {
+        padding: 2%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: -5%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        h2 {
+        font-size: 2rem;
+        }
+    }
+
+    h3 {
+        padding: 2%;
+        font-size: 1.3rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        h3 {
+        font-size: 1.8rem;
+        }
+    }
+
+    h4 {
+        font-size: 1rem;
+        padding: 0px 2%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        h4 {
+        font-size: 1.5rem;
+        }
+    }
+
+    p {
+        padding: 2%;
+    }
+
+    h5 {
+        margin: 8px 8px;
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+
+    span {
+        font-weight: 400;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+/* INDEX */
+
+    .hero p:first-of-type {
+        text-align: left;
+        margin: 0 10%;
+        padding-left: 2%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .hero p:first-of-type {
+        margin-bottom: -100px; 
+        }
+    }
+
+    .hero p:last-of-type {
+        text-align: right;
+        margin: 0 10%;
+        padding-right: 2%;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .hero p:last-of-type {
+        margin-top: -100px; 
+        }
+    }
+
+    .aboutMe {
+        width: 80%;
+        margin: 0 10%;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+
+    .aboutMe * {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .aboutMe img {
+        width: 40%;
+        border-radius: 50%;
+        border: 2vw solid #213555;
+        margin: auto;
+        display: block;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .aboutMe img {
+        width: 20%;
+        border: 1vw solid #213555;
+        }
+    }
+
+/* RESUME */
+
+    .resume {
+        margin: 0 10%;
+    }
+
+/* PROJECTS */
+
+    .projects {
+        margin: 0 10%;
+    }
+
+    .row {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .individual {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 24vw;
+        height: 24vw;
+        margin: 1vw;
+    }
+
+    .individual img {
+        background-color: lightgrey;
+        width: 24vw;
+        height: 24vw;
+    }
+
+    .headline {
+        width: 24vw;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
