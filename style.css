@@ -243,9 +243,10 @@
     }
 
     .row {
+        margin: 0 10%;
         display: flex;
         margin-bottom: 40px;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
 
