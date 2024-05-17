@@ -163,6 +163,12 @@
         margin-top: 50px;
     }
 
+    @media only screen and (min-width: 1024px) {
+        .aboutMe {
+            text-align: center;
+        }
+    }
+
     .aboutMe * {
         position: relative;
         bottom: 40px;
