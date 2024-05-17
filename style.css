@@ -134,6 +134,28 @@ h2 {
     }
   }
 
+  h3 {
+    padding: 2%;
+    font-size: 1.3rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+
+h4 {
+    font-size: 1rem;
+    padding: 0px 2%;
+}
+
+@media only screen and (min-width: 1024px) {
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+
 p {
     padding: 2%;
 }
@@ -174,14 +196,22 @@ p {
     height: 30px;
 }
 
-h3 {
+h5 {
     margin: 8px 8px;
     font-size: 0.7rem;
     font-weight: 400;
 }
 
 @media only screen and (min-width: 1024px) {
-    h3 {
+    h5 {
         font-size: 1rem;
     }
+  }
+
+  ul {
+    padding: 2% 5%;
+  }
+
+  span {
+    font-weight: 400;
   }
