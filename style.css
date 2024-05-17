@@ -52,7 +52,7 @@
     }
 
     main {
-        margin-top: 16px;
+        margin-top: 24px;
     }
 
     h1 {
@@ -142,18 +142,21 @@
 
     .hero {
         margin-top: 10px;
+
     }
 
     .hero p:first-of-type {
         text-align: left;
-        margin: 0% 10%;
+        margin: 0 10%;
         padding: 0 8px;
+        padding-bottom: 3%;
     }
 
     .hero p:last-of-type {
         text-align: right;
         margin: 0% 10%;
         padding: 0 8px;
+        padding-top: 3%;
     }
 
     .aboutMe {
@@ -161,6 +164,7 @@
         margin: 0 10%;
         border-radius: 10px;
         margin-top: 50px;
+        padding-bottom: -40px;
     }
 
     @media only screen and (min-width: 1024px) {
