@@ -268,22 +268,43 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 24vw;
-        height: 24vw;
+        width: 22vw;
+        height: 22vw;
         margin: 0 8px;
         margin-bottom: 3vw;
     }
 
+    @media only screen and (min-width: 1024px) {
+        .individual {
+            width: 24vw;
+            height: 24vw;
+        }
+    }
+
     .individual img {
         background-color: lightgrey;
-        width: 24vw;
-        height: 24vw;
+        width: 22vw;
+        height: 22vw;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .individual img {
+            width: 24vw;
+            height: 24vw;
+        }
     }
 
     .headline {
-        width: 24vw;
+        width: 22vw;
         height: 30px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .headline {
+            width: 24vw;
+            height: 40px;
+        }
     }
